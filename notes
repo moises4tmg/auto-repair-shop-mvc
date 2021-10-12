@@ -1,0 +1,45 @@
+Funcionario
+
+ID
+Nome
+Usuario
+Senha
+
+
+Ordem de serviço 
+
+ID
+ID_Cliente
+Detalhes
+Placa_Veículo
+Data_Registro
+Data_Prazo
+Preco_Manutencao
+
+
+Tabela Clientes
+
+ID
+Nome
+CPF
+Endereço
+Cidade
+Estado
+CEP
+Numero_Telefone_1
+Numero_Telefone_2
+Email
+
+
+
+STATUS DE OS
+	FINALIZADO
+	EM_ANDAMENTO
+
+
+	
+	
+	
+
+
+

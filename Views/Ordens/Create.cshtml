@@ -1,0 +1,63 @@
+@model Oficina.Models.Ordem
+
+@{
+    Layout = "~/Views/Shared/_LayoutWithSidebar.cshtml";
+    ViewData["Title"] = "Registrar OS";
+}
+
+<h3>Registrar Ordem de Serviço</h3>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ClienteId" class="control-label"></label>
+                <select asp-for="ClienteId" class ="form-control" asp-items="ViewBag.Clientes"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="FuncionarioId" class="control-label"></label>
+                <select asp-for="FuncionarioId" class ="form-control" asp-items="ViewBag.Funcionarios"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescricaoDefeito" class="control-label"></label>
+                <input asp-for="DescricaoDefeito" class="form-control" />
+                <span asp-validation-for="DescricaoDefeito" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescricaoSolucao" class="control-label"></label>
+                <input asp-for="DescricaoSolucao" class="form-control" />
+                <span asp-validation-for="DescricaoSolucao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Placa" class="control-label"></label>
+                <input asp-for="Placa" class="form-control input-placa" />
+                <span asp-validation-for="Placa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataRegistro" class="control-label"></label>
+                <input asp-for="DataRegistro" class="form-control" />
+                <span asp-validation-for="DataRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataPrazo" class="control-label"></label>
+                <input asp-for="DataPrazo" class="form-control" />
+                <span asp-validation-for="DataPrazo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PrecoTotal" class="control-label"></label>
+                <input asp-for="PrecoTotal" class="form-control input-preco" />
+                <span asp-validation-for="PrecoTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+

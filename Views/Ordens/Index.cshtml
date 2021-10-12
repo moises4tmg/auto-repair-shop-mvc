@@ -1,0 +1,69 @@
+@model IEnumerable<Oficina.Models.Ordem>
+
+@{
+    Layout = "~/Views/Shared/_LayoutWithSidebar.cshtml";
+    ViewData["Title"] = "Serviços";
+}
+
+<h3>Lista de OS</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Placa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Funcionario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataPrazo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecoTotal)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Funcionario.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataPrazo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecoTotal)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
