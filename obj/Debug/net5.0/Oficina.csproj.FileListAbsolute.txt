@@ -159,3 +159,8 @@
 /home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/obj/Debug/net5.0/Razor/Views/Ordens/Index.cshtml.g.cs
 /home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/obj/Debug/net5.0/Razor/Views/Shared/_LayoutWithSidebar.cshtml.g.cs
 /home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.Certificate.dll
+/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/obj/Debug/net5.0/Razor/Views/Funcionario/Create.cshtml.g.cs
+/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/obj/Debug/net5.0/Razor/Views/Funcionario/List.cshtml.g.cs
+/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/obj/Debug/net5.0/Razor/Views/Funcionario/Delete.cshtml.g.cs
+/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/obj/Debug/net5.0/Razor/Views/Funcionario/Details.cshtml.g.cs
+/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/obj/Debug/net5.0/Razor/Views/Funcionario/Edit.cshtml.g.cs

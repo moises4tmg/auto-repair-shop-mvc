@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/Views/Funcionario/List.cshtml",
+      "TargetPath": "Views\\Funcionario\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/Views/Clientes/Create.cshtml",
       "TargetPath": "Views\\Clientes\\Create.cshtml",
       "FileKind": "mvc"
@@ -15641,6 +15646,11 @@
     {
       "FilePath": "/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/Views/Ordens/Details.cshtml",
       "TargetPath": "Views\\Ordens\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/Views/Funcionario/Delete.cshtml",
+      "TargetPath": "Views\\Funcionario\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15674,13 +15684,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/Views/Funcionario/Create.cshtml",
+      "TargetPath": "Views\\Funcionario\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/Views/Funcionario/Edit.cshtml",
+      "TargetPath": "Views\\Funcionario\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/Views/Clientes/Edit.cshtml",
       "TargetPath": "Views\\Clientes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tmg/VisualStudio/mvc_testing/Oficina/Oficina/Views/Funcionario/Details.cshtml",
+      "TargetPath": "Views\\Funcionario\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
