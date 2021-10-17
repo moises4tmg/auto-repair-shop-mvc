@@ -1,2 +1,2 @@
 # auto-repair-shop-mvc
-MVC System for a automobile repair shop 
+MVC System for an automobile repair shop 
